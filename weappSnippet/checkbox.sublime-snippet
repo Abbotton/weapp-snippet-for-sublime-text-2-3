@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<checkbox value="${1}" checked="${2:checked}"/>${3}
+]]></content>
+	<tabTrigger>wcheckbox</tabTrigger>
+	<!-- <scope>text.html</scope> -->
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+ <toast ${1:hidden} ${2:duration="${3:1500}"} bindchange="${4}">
+	${5}
+</toast>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wtoast</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

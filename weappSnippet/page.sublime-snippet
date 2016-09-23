@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+Page({
+	data:{
+		${1}
+	},
+	onLoad:function(options){
+		${2}
+	},
+	onReady:function(){
+		${3}
+	},
+	onShow:function(){
+		${4}
+	},
+	onHide:function(){
+		${5}
+	},
+	onUnload:function(){
+		${6}
+	}
+})		
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wpage</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

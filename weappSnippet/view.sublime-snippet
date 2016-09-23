@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<view>${1}</view>
+]]></content>
+	<tabTrigger>wview</tabTrigger>
+	<!-- <scope>text.html</scope> -->
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<slider bindchange="${1}" min="${2}" max="${3}" ${5:show-value} step=${6:1} ${7:disabled="${7:false}"} value="${8}"/>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wslider</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

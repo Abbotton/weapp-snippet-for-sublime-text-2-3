@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<input placeholder="${1}" focus="${2:false}" value="${3}" type="${4:text}" password="${5:false}" ${6:placeholder-style="${7:custom-placeholder-style}"} ${8:placeholder-class="${9:custom-placeholder-class}"} disabled="${10:false}" maxlength=${11:0} bindchange="${12}" bindinput="${13}" bindfocus="${14}" bindblur="${15}" ${16:auto-focus}/>
+${17}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>winput</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

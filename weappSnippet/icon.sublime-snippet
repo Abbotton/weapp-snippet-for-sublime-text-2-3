@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<icon type="${1}" size="${2}"/>	
+]]></content>
+	<tabTrigger>wicon</tabTrigger>
+	<!-- <scope>text.html</scope> -->
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<form ${1:bindsubmit="${2:formSubmit}"} ${3:bindreset="${4:formReset}"}>
+	${5}
+</form>
+]]></content>
+	<tabTrigger>wform</tabTrigger>
+	<!-- <scope>text.html</scope> -->
+</snippet>

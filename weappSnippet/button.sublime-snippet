@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<button type="${1:default}" size="${2:default}" loading="${3:true}" plain="${4:false}" disabled="${5:false}" bindtap="${6}" hover-class="${7:custom-button-hover-class}" ${8:formType="${9:submit}"}>${10}</button>
+]]></content>
+	<tabTrigger>wbutton</tabTrigger>
+	<!-- <scope>text.html</scope> -->
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<map longitude="${1}" latitude="${2}" markers="${3}" covers="${4}" ${5:scale="${6}"}></map>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wmap</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

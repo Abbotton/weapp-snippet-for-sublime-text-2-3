@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<radio value="${1}" checked="${2:false}"/>${3}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wradio</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

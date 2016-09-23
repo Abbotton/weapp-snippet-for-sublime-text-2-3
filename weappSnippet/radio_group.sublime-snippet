@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<radio-group class="${1}" bindchange="${2}">
+    <label class="radio">
+        <radio value="${3}" checked="${4:checked}"/>${5}
+    </label>
+</radio-group>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wradiogroup</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

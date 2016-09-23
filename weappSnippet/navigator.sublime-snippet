@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<navigator url="${1}" hover-class="${2}" ${3:redirect}>${4}</navigator>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wnavigator</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

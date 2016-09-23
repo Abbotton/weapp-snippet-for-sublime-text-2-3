@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+App({
+    onLaunch: function () {
+    	${1}
+    },
+    onShow: function () {
+      	${2}
+    },
+    onHide: function () {
+      	${3}
+    },
+    globalData: ${4:'I am global data'}
+  });
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wapp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

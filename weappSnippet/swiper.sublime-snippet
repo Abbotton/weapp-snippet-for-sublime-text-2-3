@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<swpier indicator-dots="${1}" autoplay="${2:true}" interval="${3:1500}" duration="${4:500}">
+	<block wx:for-items="${5}">
+		<swpier-item>
+			<image src="{{ ${6} }}" class="slide-image" width="${7}" height="${8}"/>
+		</swpier-item>
+	</block>
+</swpier>		
+]]></content>
+	<tabTrigger>wswpier</tabTrigger>
+	<!-- <scope>text.html</scope> -->
+</snippet>

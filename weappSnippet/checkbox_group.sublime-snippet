@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<checkbox-group ${1:bindchange="${2}"}>
+    <label class="checkbox">
+        <checkbox value="${3}" checked="${4:checked}"/>${5}
+    </label>
+</checkbox-group>
+]]></content>
+	<tabTrigger>wcheckboxgroup</tabTrigger>
+	<!-- <scope>text.html</scope> -->
+</snippet>

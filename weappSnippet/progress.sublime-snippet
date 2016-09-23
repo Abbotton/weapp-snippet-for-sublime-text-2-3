@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<progress percent="${1}" ${2:show-info} stroke-width="${3}" color="${4}" ${5:active}/>
+]]></content>
+	<tabTrigger>wprogress</tabTrigger>
+	<!-- <scope>text.html</scope> -->
+</snippet>

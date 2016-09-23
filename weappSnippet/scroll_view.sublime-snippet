@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<scroll-view scroll-y="${1:true}" bindscrolltoupper="${2}" bindscrolltolower="${3}" bindscroll="${4}" scroll-into-view="${5}" scroll-top="${5}">
+	${6}
+</scroll-view>	
+]]></content>
+	<tabTrigger>wscrollview</tabTrigger>
+	<!-- <scope>text.html</scope> -->
+</snippet>
