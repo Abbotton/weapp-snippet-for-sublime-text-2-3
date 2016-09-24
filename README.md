@@ -19,43 +19,43 @@
 
 | 命令 | 对应组件或命令 |
 | -----|----:|
-| wapp | [注册小程序](http://wxopen.notedown.cn/framework/app-service/app.html) |
-| wblockif | [block wx:if](http://wxopen.notedown.cn/framework/view/wxml/conditional.html)  |
-| wbutton | [button](http://wxopen.notedown.cn/component/button.html) |
-| wcheckbox | [checkbox](http://wxopen.notedown.cn/component/checkbox.html) |
-| wcheckboxgroup | [checkbox-group](http://wxopen.notedown.cn/component/checkbox.html)  |
-| wactionsheet | [action-sheet](http://wxopen.notedown.cn/component/action-sheet.html) |
-| wcanvas | [canvas](http://wxopen.notedown.cn/component/canvas.html#canvas) |
-| wimage |[image](http://wxopen.notedown.cn/component/image.html)|
-| wtext | [text](http://wxopen.notedown.cn/component/text.html) |
-| wview | [view](http://wxopen.notedown.cn/component/view.html) |
-| wviewbind | [view 事件](http://wxopen.notedown.cn/framework/view/wxml/event.html) |
-| wmap | [map](http://wxopen.notedown.cn/component/map.html#map)|
-| wmodal | [modal](http://wxopen.notedown.cn/component/modal.html)|
-| wnavigator |[navigator](http://wxopen.notedown.cn/component/navigator.html)|
-| wexport | [模块化](http://wxopen.notedown.cn/framework/app-service/module.html)|
-| wfor | [for](http://wxopen.notedown.cn/framework/view/wxml/data.html) |
-| wform |[form](http://wxopen.notedown.cn/component/form.html)|
-| wradio|[radio](http://wxopen.notedown.cn/component/radio.html)|
-| wradiogroup|[radio-group](http://wxopen.notedown.cn/component/radio.html)|
-| wslider|[slider](http://wxopen.notedown.cn/component/slider.html)|
-| wicon|[icon](http://wxopen.notedown.cn/component/icon.html)|
-| winput|[input](http://wxopen.notedown.cn/component/input.html)|
-| winfutautofocus|[input](http://wxopen.notedown.cn/component/input.html)|
-| wtoast|[toast](http://wxopen.notedown.cn/component/toast.html)|
-| wvideo|[video](http://wxopen.notedown.cn/component/video.html)|
-| winputfocus|[input](http://wxopen.notedown.cn/component/input.html)|
-| wlabel|[label](http://wxopen.notedown.cn/component/label.html)|
-| wloading|[loading](http://wxopen.notedown.cn/component/loading.html)|
-| wpage|[Page()](http://wxopen.notedown.cn/framework/app-service/page.html)|
-| wprogress|[progress](http://wxopen.notedown.cn/component/progress.html)|
-| wscrollview|[scroll-view](http://wxopen.notedown.cn/component/scroll-view.html)|
-| wswitch|[switch](http://wxopen.notedown.cn/component/switch.html)|
-| wtemplate|[template](http://wxopen.notedown.cn/framework/view/wxml/template.html)|
-| wswiper|[swiper](http://wxopen.notedown.cn/component/swiper.html)|
-|wviewelif|[view](http://wxopen.notedown.cn/component/view.html)|
-|wviewelse|[view](http://wxopen.notedown.cn/component/view.html)|
-|wviewif|[view](http://wxopen.notedown.cn/component/view.html)|
+| wapp | [注册小程序](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/app-service/app.html) |
+| wblockif | [block wx:if](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/view/wxml/conditional.html)  |
+| wbutton | [button](https://mp.weixin.qq.com/debug/wxadoc/dev/component/button.html) |
+| wcheckbox | [checkbox](https://mp.weixin.qq.com/debug/wxadoc/dev/component/checkbox.html) |
+| wcheckboxgroup | [checkbox-group](https://mp.weixin.qq.com/debug/wxadoc/dev/component/checkbox.html)  |
+| wactionsheet | [action-sheet](https://mp.weixin.qq.com/debug/wxadoc/dev/component/action-sheet.html) |
+| wcanvas | [canvas](https://mp.weixin.qq.com/debug/wxadoc/dev/component/canvas.html#canvas) |
+| wimage |[image](https://mp.weixin.qq.com/debug/wxadoc/dev/component/image.html)|
+| wtext | [text](https://mp.weixin.qq.com/debug/wxadoc/dev/component/text.html) |
+| wview | [view](https://mp.weixin.qq.com/debug/wxadoc/dev/component/view.html) |
+| wviewbind | [view 事件](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/view/wxml/event.html) |
+| wmap | [map](https://mp.weixin.qq.com/debug/wxadoc/dev/component/map.html#map)|
+| wmodal | [modal](https://mp.weixin.qq.com/debug/wxadoc/dev/component/modal.html)|
+| wnavigator |[navigator](https://mp.weixin.qq.com/debug/wxadoc/dev/component/navigator.html)|
+| wexport | [模块化](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/app-service/module.html)|
+| wfor | [for](https://mp.weixin.qq.com/debug/wxadoc/dev/view/wxml/data.html) |
+| wform |[form](https://mp.weixin.qq.com/debug/wxadoc/dev/component/form.html)|
+| wradio|[radio](https://mp.weixin.qq.com/debug/wxadoc/dev/component/radio.html)|
+| wradiogroup|[radio-group](https://mp.weixin.qq.com/debug/wxadoc/dev/component/radio.html)|
+| wslider|[slider](https://mp.weixin.qq.com/debug/wxadoc/dev/component/slider.html)|
+| wicon|[icon](https://mp.weixin.qq.com/debug/wxadoc/dev/component/icon.html)|
+| winput|[input](https://mp.weixin.qq.com/debug/wxadoc/dev/component/input.html)|
+| winfutautofocus|[input](https://mp.weixin.qq.com/debug/wxadoc/dev/component/input.html)|
+| wtoast|[toast](https://mp.weixin.qq.com/debug/wxadoc/dev/component/toast.html)|
+| wvideo|[video](https://mp.weixin.qq.com/debug/wxadoc/dev/component/video.html)|
+| winputfocus|[input](https://mp.weixin.qq.com/debug/wxadoc/dev/component/input.html)|
+| wlabel|[label](https://mp.weixin.qq.com/debug/wxadoc/dev/component/label.html)|
+| wloading|[loading](https://mp.weixin.qq.com/debug/wxadoc/dev/component/loading.html)|
+| wpage|[Page()](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/app-service/page.html)|
+| wprogress|[progress](https://mp.weixin.qq.com/debug/wxadoc/dev/component/progress.html)|
+| wscrollview|[scroll-view](https://mp.weixin.qq.com/debug/wxadoc/dev/component/scroll-view.html)|
+| wswitch|[switch](https://mp.weixin.qq.com/debug/wxadoc/dev/component/switch.html)|
+| wtemplate|[template](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/view/wxml/template.html)|
+| wswiper|[swiper](https://mp.weixin.qq.com/debug/wxadoc/dev/component/swiper.html)|
+|wviewelif|[view](https://mp.weixin.qq.com/debug/wxadoc/dev/component/view.html)|
+|wviewelse|[view](https://mp.weixin.qq.com/debug/wxadoc/dev/component/view.html)|
+|wviewif|[view](https://mp.weixin.qq.com/debug/wxadoc/dev/component/view.html)|
 
 
 ### enjoy
