@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+wx.saveFile({
+  tempFilePath: ${1},
+  success: function(res) {
+    var savedFilePath = res.savedFilePath;
+    ${2}
+  },
+  success: function(res) {
+    ${3}
+  },
+  fail: function(res) {
+    ${4}
+  },
+  complete: function(res) {
+    ${5}
+  }
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>apisavefile</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

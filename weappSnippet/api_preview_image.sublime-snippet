@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+wx.previewImage({
+  current: '${1}', // 当前显示图片的http链接
+  urls: [${2}], // 需要预览的图片http链接列表
+  success: function(res) {
+    ${3}
+  },
+  fail: function(res) {
+    ${4}
+  },
+  complete: function(res) {
+    ${5}
+  }
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>apipreviewimg</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

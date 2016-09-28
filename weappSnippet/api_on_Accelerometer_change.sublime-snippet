@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+wx.onAccelerometerChange(function(res) {
+  ${1:console.log(res.x)
+  console.log(res.y)
+  console.log(res.z)}
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>apiaccelerometerchange</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

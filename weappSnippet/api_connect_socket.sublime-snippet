@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+wx.connectSocket({
+	//必需
+	url: '${1}',
+	method: "${2}"
+	data: {
+		${3}
+	},	
+	header: {
+		${4}
+	},
+	success: function(res) {
+		${5}
+	},
+	fail: function(res) {
+		{6}
+	},
+	complete: function(res) {
+		${7}
+	}
+	});
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>apiconnskt</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

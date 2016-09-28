@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+wx.requestPayment({
+   'timeStamp': '${1}',
+   'nonceStr': '${2}',
+   'package': '${3}',
+   'signType': 'MD5',
+   'paySign': '${4}',
+   'success':function(res){
+      ${5};
+   },
+   'fail':function(res){
+      ${6}
+   },
+   'complete':function(res){
+      ${7}
+   }
+})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>apipayment</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

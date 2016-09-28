@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+wx.getSystemInfo({
+  success: function(res) {
+    ${1:var model = res.model;
+    var pixelRatio = res.pixelRatio;
+    var windowWidth = res.windowWidth;
+    var windowHeight = res.windowHeight;
+    var language = res.language;
+    var version = res.version;}
+  },
+  fail: function(res) {
+    ${2}
+  },
+  complete: function(res) {
+    ${3}
+  }
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>apigetsysinfo</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

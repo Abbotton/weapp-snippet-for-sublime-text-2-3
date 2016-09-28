@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+wx.getBackgroundAudioPlayerState({
+    success: function(res) {
+        ${1:var status = res.status;
+        var dataUrl = res.dataUrl;
+        var currentPosition = res.currentPosition;
+        var duration = res.duration;
+        var downloadPercent = res.downloadPercent;}
+        ${2}
+    }
+})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>apigetbgaudioplayerstate</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

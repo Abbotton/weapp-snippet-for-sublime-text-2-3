@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+wx.chooseVideo({
+    sourceType: ${1:['album','camera']},
+    maxDuration: ${2},
+    camera: ${3:['front','back']},
+    success: function(res) {
+      ${4:var tempFilePath = res.tempFilePath;
+      var duration = res.duration;
+      var size = res.size;
+      var height = res.height;
+      var weight = res.weight;}
+    },
+    fail: function(res) {
+      ${5}
+    },
+    complete: function(res) {
+      ${6}
+    }
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>apichoosevideo</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

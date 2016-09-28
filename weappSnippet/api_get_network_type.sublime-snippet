@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+wx.getNetworkType({
+  success: function(res) {
+    var networkType = res.networkType // 返回网络类型2g，3g，4g，wifi
+    ${1}
+  }
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>apigetnetworktype</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

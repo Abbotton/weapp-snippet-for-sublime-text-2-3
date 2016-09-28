@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+wx.setStorage({
+  key:"${1}",
+  data:"${2}",
+  success: function(res) {
+    ${3}
+  },
+  fail: function(res) {
+    ${4}
+  },
+  complete: function(res) {
+    ${5}
+  }
+})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>apisetstorage</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

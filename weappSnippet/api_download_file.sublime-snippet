@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+wx.downloadFile({
+	//必需
+	url: '${1}',
+	type: ${2},
+	name: '${3}',
+	header: {
+		${5}
+	},
+	success: function(res) {
+		${6}
+	},
+	fail: function(res) {
+		{7}
+	},
+	complete: function(res) {
+		${8}
+	}
+	});
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>apidownloadfile</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+wx.chooseImage({
+  count: ${1:1}, 
+  sizeType: ${2:['original', 'compressed']}, // 可以指定是原图还是压缩图，默认二者都有
+  sourceType: ${3:['album', 'camera']}, // 可以指定来源是相册还是相机，默认二者都有
+  success: function (res) {
+    ${4:var tempFilePaths = res.tempFilePaths}
+  },
+  fail: function(res) {
+    ${5}
+  },
+  complete: function(res) {
+    ${6}
+  }
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>apichooseimg</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
