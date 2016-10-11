@@ -3,7 +3,7 @@
 wx.connectSocket({
 	//必需
 	url: '${1}',
-	method: "${2}"
+	method: "${2}",
 	data: {
 		${3}
 	},	
