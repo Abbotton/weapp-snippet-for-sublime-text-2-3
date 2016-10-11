@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-wx.starRecord({
+wx.startRecord({
   success: function(res) {
     ${1:var tempFilePath = res.tempFilePath }
   },
