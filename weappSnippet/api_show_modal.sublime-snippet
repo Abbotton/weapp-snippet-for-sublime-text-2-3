@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+wx.showModal({
+	title: "${1}",
+	content: "${2}",
+	showCancel: ${3:true},
+	cancelText: "${4:取消}",
+	cancelColor: "${5:#000000}",
+	confirmText: "${6:确定}",
+	confirmColor: "${7:#3CC51F}",
+	success: function(res) {
+		${8}
+	},
+	fail: function (res) {
+		${9}
+	},
+	complete: function (res) {
+		${10}
+	}
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>apishowmodal</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

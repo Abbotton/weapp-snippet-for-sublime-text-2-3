@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+wx.hideModal();		
+wx.showActionSheet({
+	itemList: "${1:['A', 'B', 'C']}",//最多10个
+	itemColor: "${2:#000000}",
+	success: function(res) {
+		//用户是否取消选择
+		if (!res.cancel) {
+			//用户点击的按钮，从上到下的顺序，从0开始
+			console.log(res.tapIndex);
+		}
+		${3}
+	},
+	fail: function (res) {
+		${4}
+	},
+	complete: function (res) {
+		${5}
+	}
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>apihidemodal</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

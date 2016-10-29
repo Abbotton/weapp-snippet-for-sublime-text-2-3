@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+wx.chooseLocation({
+	success: function(res) {
+		console.log(res.name);//位置名称
+		console.log(res.address);//详细地址
+		console.log(res.latitude);//纬度
+		console.log(res.longitude);//经度
+		${1}
+	},
+	cancel: function (res) {
+		${2}
+	},
+	fail: function (res) {
+		${3}
+	},
+	complete: function (res) {
+		${4}
+	}
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>apichooselocation</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

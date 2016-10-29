@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+wx.getStorageInfoSync({
+	success: function(res) {
+		console.log(res.keys);
+		console.log(res.currentSize);
+		console.log(res.limitSize);
+		${1}
+	},
+	fail: function (res) {
+		${2}
+	},
+	complete: function (res) {
+		${3}
+	}
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>apigetstorageinfosync</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
