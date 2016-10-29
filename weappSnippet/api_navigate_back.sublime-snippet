@@ -1,6 +1,8 @@
 <snippet>
 	<content><![CDATA[
-wx.navigateBack();
+wx.navigateBack({
+	delta: ${1}
+});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>apinavigateback</tabTrigger>

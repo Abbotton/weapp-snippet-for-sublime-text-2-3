@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<video src="${1}" binderror="${2}" ${3:hidden}></video>
+<video src="${1}" binderror="${2}" ${3:controls} ${4:danmu-list=""} ${5:danmu-btn} ${6:enable-danmu} ${7:autoplay} ${8:bindplay="${9}"} ${10:bindpause="${11}"} ${12:bindended="${13}"} ${14:binderror="${15}"}></video>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>wvideo</tabTrigger>

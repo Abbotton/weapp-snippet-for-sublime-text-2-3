@@ -18,6 +18,12 @@ Page({
 	},
 	onUnload:function(){
 		${6}
+	},
+	onPullDownRefresh:function(){
+		${7}
+	},
+	onReachBottom:function(){
+		${8}
 	}
 })		
 ]]></content>
