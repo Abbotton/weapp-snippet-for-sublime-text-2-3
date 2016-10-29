@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<textarea value="${1}" placeholder="${2}" ${3:placeholder-style=""} ${4:placeholder-class=""} ${5:disabled=""} ${6:maxlength=""} ${7:auto-focus="false"} ${8:focus="false"} ${9: auto-height="true"} ${10:bindfocus="${11}"} ${12:bindblur="${13}"} ${14:bindlinechange="{$15} "}/>		
+<textarea value="${1}" placeholder="${2}" ${3:placeholder-style=""} ${4:placeholder-class=""} ${5:disabled} ${6:maxlength=""} ${7:auto-focus} ${8:focus} ${9: auto-height} ${10:bindfocus="${11}"} ${12:bindblur="${13}"} ${14:bindlinechange="{$15} "}/>		
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>wtextarea</tabTrigger>
