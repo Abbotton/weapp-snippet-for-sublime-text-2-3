@@ -16,14 +16,14 @@
 
 #### 2016-10-29:
 
-> 新增17个微信公众号小程序 API Snippet
-> 新增1个微信公众号小程序组件 textarea Sinppet
-> 移除即将废弃的`<toast/>、<loading/>、<action-sheet/>、<modal/>`4个组件。
+> 新增17个微信公众号小程序 API Snippet  
+> 新增1个微信公众号小程序组件 textarea Sinppet  
+> 移除即将废弃的`<toast/>、<loading/>、<action-sheet/>、<modal/>`4个组件。  
 > 添加api_navigator、page、video Snippet中新增的属性
 
 #### 2016-09-29：
 
-> 新增49个微信公众号小程序 API Snippet
+> 新增49个微信公众号小程序 API Snippet  
 > 修改 README.md 语法错误
 
 
