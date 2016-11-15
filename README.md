@@ -2,6 +2,8 @@
 -----
 ### 简介
 
+微信小程序在线配置工具已经上线了，欢迎各位小伙伴前往试用，[传送门](https://weapptool.com)
+
 刚接触微信小程序开发,尝试着使用了一下微信开发调试工具 v0.9版的代码编辑功能,感觉好鸡肋有木有!?于是果断回到 ST.但是,ST 不认微信"发明"出来的这个WXML,这个WXML 可以说是 html 和 xml 的变异结合体.
 
 不过还好ST有自定义 snippet 的功能,于是我就动手把 WXML 里的组件和部分其他内容都整成了 snippet 分享出来方便大家使用,提升大家的开发效率.
@@ -13,6 +15,11 @@
 将下载好的代码片段放入 Sublime text安装目录/Packages/User 目录中即可.
 
 ### 更新日志：
+
+#### 2016-11-15:
+
+> 修复一处拼写错误([#6](https://github.com/Abbotton/weapp-snippet-for-sublime-text-2-3/issues/6))
+> 更新README.md文件
 
 #### 2016-10-29:
 
